@@ -1,0 +1,60 @@
+html {
+        color: rgb(223, 223, 223) !important;
+}
+body {
+    background-image: url("../img/photo-1763645246808-79c2c51d86ad.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: #000000; 
+    color: rgb(223, 223, 223) !important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.body{
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.97));
+}
+
+
+.colPrim{
+    color: oklch(76.9% 0.188 70.08) !important;
+}
+.bColPrim{
+    background-color: oklch(76.9% 0.188 70.08) !important;
+}
+
+.nav-link:hover{
+    font-weight: bold;
+    color: oklch(100% 0.00011 271.152) !important;
+}
+
+.nav-item, .nav-link{
+    color: rgb(207, 207, 207) !important;
+}
+
+.active{
+    color: oklch(76.9% 0.188 70.08) !important;
+}
+
+
+#chat {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: oklch(76.9% 0.188 70.08) !important;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+#chat:hover {
+    background-color: #555;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartBite</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/menu.css">
+
+    <!-- Icons --> 
+     <link rel="stylesheet" 
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+     crossorigin="anonymous" 
+     referrerpolicy="no-referrer" 
+     />
+
+     <style>
+        .checked {
+            color: orange;
+        }
+     </style>
+
+</head>
+<body class="bg-dark">
+    <header>
+        <nav class="navbar navbar-expand-sm clearfix border-bottom" style="background-color: black; border-color: oklch(35.035% 0.06705 71.741 / 0.315) !important;">
+            <div class="container ">
+                <div class="mx-3 float-start">
+                    <h2 class="text-primary">
+                        Smart&nbsp;Bite
+                    </h2>
+                    
+                </div>
+                <ul class="navbar-nav text-white justify-content-center me-5 pe-5">
+                    <li class="nav-item mx-3 px-2">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item mx-3 px-2">
+                        <a class="nav-link" href="./menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item mx-3 px-2">
+                        <a class="nav-link" href="./booking.html">Reservation</a>                  
+                    </li>
+                    <li class="nav-item mx-3 px-2">
+                        <a class="nav-link active" href="#">Rewview</a>                  
+                    </li>
+                </ul>
+                <div class="mx-3 py-2 px-3 float-end border" style="border-radius: 25px; display: block;border-color: oklch(35.035% 0.06705 71.741 / 0.315) !important; background-color:rgba(27, 14, 7, 0.774) !important;">
+                    
+                    <a class="nav-link" href="./login.html" style="display: block;">
+                        <i class="fa-solid fa-right-to-bracket"></i>&nbsp;&nbsp;Log&nbsp;In
+                    </a>
+                    <a class="nav-link" href="./#" style="display: none;"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+            </div>
+
+            
+        </nav>
+    </header>
+    <div>
+        <h1 class="text-center text-primary mt-5" style="font-weight: bold;">Customer Reviews</h1>
+        <div class="container justify-content-center text-center">
+            <div class="my-2" style="font-size: 150%;">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <p style="display: inline; font-weight: bold; font-size: 110%;">
+                     3 <span style="opacity: 70%; font-size: 60%;">(5 reviews)</span>
+                </p>
+            </div>
+            <p class="m-5 px-5" style="font-size:150%;">
+                Discover what our customers have to say about their dining experience at SmartBite. 
+            </p>
+        </div>
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-10 my-3">
+                    <div class="card bg-dark text-white" style="border-color: oklch(35.035% 0.06705 71.741 / 0.315) !important; border-radius: 20px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Write a Review</h5>
+                            <p class="card-text">Share your dining experience with us.</p>
+                            <div class="p-3 bg-dark justify-content-center text-center"><p>Please log in to leave a review.</p></div>
+                            
+                            <form action="" style="display: none;">
+                                <div class="mb-3">
+                                    <label for="review" class="form-label">Your Review</label>
+                                    <textarea class="form-control bg-dark text-white" id="review" rows="3" placeholder="Write your review here..."></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit Review</button>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-6 col-md-10 my-3">
+                    <div class="card bg-dark text-white" style="border-color: oklch(35.035% 0.06705 71.741 / 0.315) !important; border-radius: 20px;">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-9"> 
+                                    <h5 class="card-title">John Doe</h5>
+                                </div>
+                                <div class="col"> 
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                            
+                            <p class="card-text">"The food was absolutely delicious and the service was top-notch. Highly recommend!"</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container justify-content-center text-center">
+        <footer class="m-3 pb-5" style="font-size: 200%;">
+            <h5 class="">Follow us on our social medias :</h5>
+            <i class="fa-brands fa-square-facebook text-primary px-2"></i>
+            <i class="fa-brands fa-square-instagram text-primary px-2"></i>
+            <i class="fa-brands fa-square-twitter text-primary px-2"></i>
+            <i class="fa-brands fa-square-whatsapp text-primary px-2"></i>
+
+            <br>
+            <h6 class="mt-3">&copy; SmartBite - 2026</h6> 
+        </footer>
+    </div>
+
+</body>
+</html>
